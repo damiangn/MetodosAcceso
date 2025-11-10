@@ -3,11 +3,30 @@ Notas para levantar un servidor local "The Things Nwetwork"
 
 ## Pasos para crear un servidor local de The Things Stack con certificados autofirmados.
 
-1. Instalar `cfssl`:
+### 1. Instalar `cfssl`:
 
-2. Descargar los dos archivos `.yml` de la [página web:](https://www.thethingsindustries.com/docs/enterprise/docker/configuration/)
+* Descargar el archivo binario:
+```
+wget https://github.com/cloudflare/cfssl/releases/download/v1.6.1/cfssl_linux-amd64 -O cfssl
 
-3. Configurarlos así:
+wget https://github.com/cloudflare/cfssl/releases/download/v1.6.1/cfssljson_linux-amd64 -O cfssljson
+```
+* Dar permisos de ejecución:
+```
+chmod +x cfssl cfssljson
+```
+* Mover los archivos a una ubicación en el PATH:
+```
+sudo mv cfssl cfssljson /usr/local/bin/
+```
+* Verificar que esté instalado:
+```
+cfssl version
+```
+
+### 2. Descargar los dos archivos `.yml` de la [página web:](https://www.thethingsindustries.com/docs/enterprise/docker/configuration/)
+
+### 3. Configurarlos así:
 
 `docker-compose.yml`:
 ```bash
@@ -224,10 +243,78 @@ ttgc:
 
 Reemplazar la dirección IP por la de la PC host donde se quiera instalar el servidor.
 
-4. En consola poner los siguientes comandos:
+### 4. Crear la siguiente estructura de directorios:
+```
+docker-compose.yml
+config/
+└── stack/
+    └── ttn-lw-stack-docker.yml
+```
+
+### 5. Generar los certificados autofirmados:
+Crear un archivo llamado `ca.json`, escribir esto dentro de este archivo:
+```
+{
+  "names": [
+    {
+      "C": "NL",
+      "ST": "Noord-Holland",
+      "L": "Amsterdam",
+      "O": "The Things Demo"
+    }
+  ]
+}
+```
+* A continuación, utilice el siguiente comando para generar la clave CA y el certificado:
+```
+cfssl genkey -initca ca.json | cfssljson -bare ca
+```
+Ahora crear un archivo llamado `cert.json`, escriba la configuración de su certificado:
+```
+{
+  "hosts": ["thethings.example.com"],
+  "names": [
+    {
+      "C": "NL",
+      "ST": "Noord-Holland",
+      "L": "Amsterdam",
+      "O": "The Things Demo"
+    }
+  ]
+}
+```
+**Nota**: Recuerde reemplazar `thethings.example.com` con la dirección de su servidor!
+
+* Luego, ejecute el siguiente comando para generar la clave del servidor y el certificado:
+```
+cfssl gencert -ca ca.pem -ca-key ca-key.pem cert.json | cfssljson -bare cert
+```
+Los siguientes pasos suponen que la clave de certificado se llama key.pem, así que tendrás que cambiar el nombre `cert-key.pem` a `key.pem`. Para esto escribir:
+```
+mv cert-key.pem key.pem
+```
+Al final, su directorio debe verse así:
+```
+cert.pem
+key.pem
+ca.pem
+docker-compose.yml          # defines Docker services for running The Things Stack
+config/
+└── stack/
+    └── ttn-lw-stack-docker.yml    # configuration file for The Things Stack
+```
+### 6. Para utilizar el certificado `(cert.pem)` y clave `(key.pem)`, también necesita establecer estos permisos:
+```
+sudo chown 886:886 ./cert.pem ./key.pem
+```
+**Nota**: Esto es para que cambie el grupo y usuario que accede a estos dos archivos, 886 es el grupo y usuario que crea el docker-compose.yml
+
+### 7. Proceso en la parte de Docker:
+Una vez tengamos los certificados y los archivos con la correspondiente estructura de directorios se sigue con los siguientes pasos:
 ```
 sudo docker-compose pull
 ```
+Inicializar la base de datos del servidor de identidad:
 ```
 sudo docker-compose run --rm stack is-db migrate
 ```
