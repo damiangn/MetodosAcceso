@@ -33,9 +33,9 @@ sudo mv cfssl cfssljson /usr/local/bin/
 cfssl version
 ```
 
-### 2. Descargar los dos archivos `.yml` de la [página web:](https://www.thethingsindustries.com/docs/enterprise/docker/configuration/)
+### 2. Se siguió el tutorial de la [página web de TTN](https://www.thethingsindustries.com/docs/enterprise/docker/configuration/)
 
-### 3. Configurarlos así (o directamente bajar estos dos):
+### 3. Descargar los dos archivos Open source `.yml` de la página y editarlos, configurarlos así (o directamente bajar estos dos):
 
 `docker-compose.yml`: [ver documento](archivos/docker-compose.yml)
 
