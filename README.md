@@ -3,7 +3,7 @@ Notas para levantar un servidor local "The Things Network"
 
 ## Pasos para crear un servidor local de The Things Stack con certificados autofirmados.
 
-**Nota**: Antes de comenzar revisar que no haya ningun servicio utilizando puertos que vamos a necesitar, como por ejemplo que no este mosquitto corriendo como systemctl, o telegraf formateando protocolos mqtt y realizando publicaciones (ya que las va q querer recibir el servidor de TTN y va a dar error por el nombre id de la aplicacion), o tambien node-red. Si alguno se tiene corriendo en la pc host, finalizarlos con:
+**Nota**: *Antes de comenzar revisar que no haya ningun servicio utilizando puertos que vamos a necesitar, como por ejemplo que no este mosquitto corriendo como systemctl, o telegraf formateando protocolos mqtt y realizando publicaciones (ya que las va q querer recibir el servidor de TTN y va a dar error por el nombre id de la aplicacion), o tambien node-red. Si alguno se tiene corriendo en la pc host, finalizarlos con:*
 ```
 sudo systemctl stop (nombre del servicio)
 ```
@@ -83,7 +83,7 @@ Ahora crear un archivo llamado `cert.json`, escriba la configuración de su cert
   ]
 }
 ```
-**Nota**: Recuerde reemplazar `thethings.example.com` con la dirección de su servidor!
+**Nota**: *Recuerde reemplazar `thethings.example.com` con la dirección de su servidor!*
 
 * Luego, ejecute el siguiente comando para generar la clave del servidor y el certificado:
 ```
@@ -108,7 +108,7 @@ config/
 ```
 sudo chown 886:886 ./cert.pem ./key.pem
 ```
-**Nota**: Esto es para que cambie el grupo y usuario que accede a estos dos archivos, 886 es el grupo y usuario que crea el docker-compose.yml
+**Nota**: *Esto es para que cambie el grupo y usuario que accede a estos dos archivos, 886 es el grupo y usuario que crea el docker-compose.yml*
 
 ### 7. Proceso en la parte de Docker:
 Una vez tengamos los certificados y los archivos con la correspondiente estructura de directorios se sigue con los siguientes pasos:
@@ -124,12 +124,12 @@ sudo docker-compose run --rm stack is-db migrate
 ```
 sudo docker-compose run --rm stack is-db create-admin-user --id admin --email admin@192.168.100.9
 ```
-**Nota**: No toma todas las contraseñas, `Admin1` la toma bien. Usar alguna parecida o esa misma.
+**Nota**: *No toma todas las contraseñas, `Admin1` la toma bien. Usar alguna parecida o esa misma.*
 ***
 - Crear el cliente OAuth:
 
 ```
-docker compose run --rm stack is-db create-oauth-client \
+sudo docker-compose run --rm stack is-db create-oauth-client \
   --id cli \
   --name "Command Line Interface" \
   --owner admin \
@@ -184,6 +184,8 @@ sudo docker-compose run --rm stack is-db create-oauth-client \
 ```
 docker compose up -d
 ```
+
+**Nota**: *Esperar a que los 3 dockers esten corriendo, el docker stack demora un minuto en activarse bien.*
 ***
 Una vez hecho todo esto debería estar funcionando bien el servidor localmente en docker. Entrar al navegador Web y dirigirse a la url:
 
