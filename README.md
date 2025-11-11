@@ -33,7 +33,7 @@ sudo mv cfssl cfssljson /usr/local/bin/
 cfssl version
 ```
 
-### 2. Se siguió el tutorial de la [página web de TTN](https://www.thethingsindustries.com/docs/enterprise/docker/configuration/)
+### 2. Apartir de acá se siguió el tutorial de la [página web de TTN](https://www.thethingsindustries.com/docs/enterprise/docker/configuration/):
 
 ### 3. Descargar los dos archivos Open source `.yml` de la página y editarlos, configurarlos así (o directamente bajar estos dos):
 
@@ -42,6 +42,12 @@ cfssl version
 y el arvhivo `ttn-lw-stack-docker.yml`: [ver documento](archivos/ttn-lw-stack-docker.yml)
 
 Reemplazar la dirección IP por la de la PC host donde se quiera instalar el servidor.
+En el terminal de linux generar dos keys aleatorias usando los comandos:
+```
+openssl rand -hex 32
+openssl rand -hex 64
+```
+Pegar estas keys en las líneas 34 y 35 del archivo `ttn-lw-stack-docker.yml`.
 
 ### 4. Crear la siguiente estructura de directorios:
 ```
