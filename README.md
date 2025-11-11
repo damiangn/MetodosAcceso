@@ -103,6 +103,7 @@ config/
 └── stack/
     └── ttn-lw-stack-docker.yml    # configuration file for The Things Stack
 ```
+
 ### 6. Para utilizar el certificado `(cert.pem)` y clave `(key.pem)`, también necesita establecer estos permisos:
 ```
 sudo chown 886:886 ./cert.pem ./key.pem
@@ -114,17 +115,18 @@ Una vez tengamos los certificados y los archivos con la correspondiente estructu
 ```
 sudo docker-compose pull
 ```
-Inicializar la base de datos del servidor de identidad:
+- Inicializar la base de datos del servidor de identidad:
 ```
 sudo docker-compose run --rm stack is-db migrate
 ```
-Crear el usuario admin:
+***
+- Crear el usuario admin:
 ```
 sudo docker-compose run --rm stack is-db create-admin-user --id admin --email admin@192.168.100.9
 ```
 **Nota**: No toma todas las contraseñas, `Admin1` la toma bien. Usar alguna parecida o esa misma.
-
-Crear el cliente OAuth:
+***
+- Crear el cliente OAuth:
 
 ```
 docker compose run --rm stack is-db create-oauth-client \
@@ -135,7 +137,8 @@ docker compose run --rm stack is-db create-oauth-client \
   --redirect-uri "local-callback" \
   --redirect-uri "code"
 ```
-Crear un cliente OAuth para la consola (reemplace con su SERVER_ADDRESSY Consola CLIENT_SECRET):
+***
+- Crear un cliente OAuth para la consola (reemplace con su SERVER_ADDRESSY Consola CLIENT_SECRET):
 ```
 SERVER_ADDRESS=https://192.168.100.9
 ID=console
@@ -155,7 +158,8 @@ sudo docker-compose run --rm stack is-db create-oauth-client \
   --logout-redirect-uri "${LOGOUT_REDIRECT_URI}" \
   --logout-redirect-uri "${LOGOUT_REDIRECT_PATH}"
 ```
-Y luego para el NOC (reemplace con su SERVER_ADDRESSY NOC CLIENT_SECRET):
+***
+- Y luego para el NOC (reemplace con su SERVER_ADDRESSY NOC CLIENT_SECRET):
 ```
 SERVER_ADDRESS=https://192.168.100.9
 ID=noc
@@ -175,12 +179,12 @@ sudo docker-compose run --rm stack is-db create-oauth-client \
   --logout-redirect-uri "${LOGOUT_REDIRECT_URI}" \
   --logout-redirect-uri "${LOGOUT_REDIRECT_PATH}"
 ```
-
-Iniciar los servicios:
+***
+- Iniciar los servicios:
 ```
 docker compose up -d
 ```
-
+***
 Una vez hecho todo esto debería estar funcionando bien el servidor localmente en docker. Entrar al navegador Web y dirigirse a la url:
 
 `https://[ip-de-la-pc-host]/console`
