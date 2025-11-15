@@ -16,7 +16,7 @@ Con esto el nodo ya estáregistrado, ahora solo falta compilar el código en el 
 
 **Nota:** *Al DevEUI se lo obtiene desde el ropio arduino con el comando `sys get hweui`* desde el Arduino IDE.
 
-## 3. Compilar en el ESP32 el programa [primer_prueba_lorawan.ino](/documentos/primer_prueba_lorawan.ino)
+## 3. Compilar en el ESP32 el programa [primer_prueba_lorawan.ino](./documentos/primer_prueba_lorawan.ino)
 
 Reemplazar los valores que corraspondan en la lineas de:
 
