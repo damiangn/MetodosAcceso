@@ -32,7 +32,7 @@ CayenneLPP lpp(51);  // Buffer size for Cayenne LPP payload
 RTCZero rtc;
 
 // LoRaWAN Parameters (placeholders - replace with your TTN values)
-const char* DEV_EUI = "0004A30B0021DC0F";  // Obtained from sys get hweui or TTN console
+const char* DEV_EUI = "0004A30B00######";  // Obtained from sys get hweui or TTN console
 const char* APP_EUI = "70B3D57ED0000000";  // From TTN Application
 const char* APP_KEY = "02102F53631D24085D2A8A50609FE723";  // From TTN Application
 
