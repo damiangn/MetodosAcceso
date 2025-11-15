@@ -26,7 +26,7 @@ const char* APP_KEY = "";
 
 Una vez que compile ya debería comunicarse con el servidor, como muestra la siguiente imágen.
 
-![]()
+![](/imagenes/LiveData.jpg)
 
 
 
