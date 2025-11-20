@@ -28,14 +28,14 @@ En server address poner la dirección IP del servidor local.
 Después en Radio 0 y Radio 1 establecer las frecuencias centrales:
 
 `AS923:`\
-Radio 0 - Central frequency: 923500000
+Radio 0 - Central frequency: **923500000**
 
-Radio 1 - Central frequency: 924300000
+Radio 1 - Central frequency: **924300000**
 
 `AU915`\
-Radio 0 - Central frequency: 917100000
+Radio 0 - Central frequency: **917100000**
 
-Radio 1 - Central frequency: 917900000
+Radio 1 - Central frequency: **917900000**
 ***
 **Notas:** *Para reiniciar de fábrica el código de aprovisionamiento sin tener que resetear el equipo con el botón, poner este código y darle a aplicar: `ffff000FE158`*.
 
