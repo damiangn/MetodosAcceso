@@ -21,7 +21,7 @@ AU915 – Australia:
 
 El dispositivo se reiniciará, cuando esté listo volver a ingresar a la red Wifi (192.168.55.1).
 
-![provision_code](./imagenes/Provision_code.jpg)
+![provision_code](./imagenes/Provision_code2.jpg)
 
 Navegar hasta `Packet Forward → Settings`
 
@@ -47,11 +47,11 @@ En la pc host, a la interfaz Ethernet a la que se vaya a conectar el gateway, ha
 
 ![IP_PC_Server](./imagenes/IP_pc_host_server.jpg)
 
-![IP_Gateway](./imagenes/WAN.jpg)
+![IP_Gateway](./imagenes/WAN2.jpg)
 
 También ponerle el puerto 1700 tanto para downlink como para uplink, ya que el servidor está configurado para usar esos puertos (se pueden cambiar desde el docker-compose.yml en caso de querer usar un puerto distinto del 1700).
 
-![](./imagenes/Gateway_info.jpg)
+![Gateway_Info](./imagenes/Gateway_info2.jpg)
 
 Una vez hecho todo esto hay que reiniciar el servicio stack desde docker para que haga efecto las configuraciones`(sudo docker restart stack-1, o el nombre que tenga ese docker)`.
 
