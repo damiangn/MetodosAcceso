@@ -23,6 +23,8 @@ El dispositivo se reiniciará, cuando esté listo volver a ingresar a la red Wif
 
 ![provision_code](./imagenes/Provision_code2.jpg)
 
+*No aparecen las primeras letras pero eso es porque ya se ingresó el código, ingresarlo completo con letras y todo como se indica arriba*.
+
 Navegar hasta `Packet Forward → Settings`
 
 En server address poner la dirección IP del servidor local.
