@@ -21,6 +21,8 @@ AU915 – Australia:
 
 El dispositivo se reiniciará, cuando esté listo volver a ingresar a la red Wifi (192.168.55.1).
 
+![provision_code](./imagenes/Provision_code.jpg)
+
 Navegar hasta `Packet Forward → Settings`
 
 En server address poner la dirección IP del servidor local.
@@ -43,9 +45,15 @@ Radio 1 - Central frequency: **917900000**
 ***
 En la pc host, a la interfaz Ethernet a la que se vaya a conectar el gateway, hay que darle la dirección IP que pensamos ponerle al servidor. Crear una nueva red, por ej: asignar a la interfaz la dirección ip 192.168.137.28, la red va a ser 192.168.137.0/24. Entonces al gateway hay que darle una dirección ip que pertenezca a esta misma red, por ejemplo 192.168.137.2, en la parte que pide un gateway y un servidor dns ponerle la misma del servidor en ambos (debe ser para conectarse a internet, pero en principio no hace falta que salga a internet). Por defecto el gateway usa la dirección de loopback (127.0.0.1).
 
+![IP_PC_Server](./imagenes/IP_pc_host_server.jpg)
+
+![IP_Gateway](./imagenes/WAN.jpg)
+
 También ponerle el puerto 1700 tanto para downlink como para uplink, ya que el servidor está configurado para usar esos puertos (se pueden cambiar desde el docker-compose.yml en caso de querer usar un puerto distinto del 1700).
 
-Una vez hecho todo esto hay que reiniciar el servicio stack desde docker para que haga efecto las configuraciones(sudo docker restart stack-1, o el nombre que tenga ese docker).
+![](./imagenes/Gateway_info.jpg)
+
+Una vez hecho todo esto hay que reiniciar el servicio stack desde docker para que haga efecto las configuraciones`(sudo docker restart stack-1, o el nombre que tenga ese docker)`.
 
 En el servidor TTN cuando agregas el gateway va a aparecer en “disconnected” o en “connecting…”, cuando se configura bien el gateway desde su propia interfaz y se reinicia el docker stack, debe aparecer como “connected”, sino aparece así entonces hay algún error, revisar los logs del docker stack para ver que es.
 
