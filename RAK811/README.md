@@ -13,10 +13,13 @@
 ***
 ### Comandos AT:
 
+**Nota:** *Utilizar los baudrates en 115200, y utilizar CR/LF*.
+
 `at+help` ==> Lista todos los comandos AT disponibles para la versión de firmware.
 
-Comandos que dan información necesaria:
+- Comandos que dan información necesaria:
 
 `at+get_config=lora:status` ==> Da info. sobre DEV_EUI, APP_EUI, APP_KEY, frecuencias, tamaño de ventanas, los join, etc.
 
 `at+version` ==> Versión del firmware del dispositivo.
+***
