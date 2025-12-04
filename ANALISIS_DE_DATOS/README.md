@@ -32,12 +32,12 @@ En este caso las siguientes líneas representan estos datos:
 | 7 | 916.6 | FSB1 |
 | 8 | 916.8  | **FSB2** |
 | 9 | 917.0  | **FSB2** | 
-| | | | *---> freq central Radio 0*
+| | 917.1 | | *---> freq central Radio 0*
 | 10 | 917.2  | **FSB2** |
 | 11 | 917.4  | **FSB2** |
 | 12 | 917.6  | **FSB2** |
 | 13 | 917.8  | **FSB2** |
-| | | | *---> freq central Radio 1*
+| | 917.9 | | *---> freq central Radio 1*
 | 14 | 918.0  | **FSB2** |
 | 15 | 918.2  | **FSB2** |
 | 16 | 918.4  | FSB3 |
