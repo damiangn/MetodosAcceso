@@ -92,3 +92,8 @@ Frequency (MHz) | Data Rate | In FSB2
 [Frequency plan](https://www-thethingsnetwork-org.translate.goog/docs/lorawan/frequency-plans/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc)
 
 [Regional parameters](https://lora-alliance.org/wp-content/uploads/2020/11/lorawan_regional_parameters_v1.0.2_final_1944_1.pdf)
+
+***
+## Servidor MQTT.
+
+[>> Ver la información del siguiente link <<](https://www-thethingsindustries-com.translate.goog/docs/integrations/other-integrations/mqtt/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc#note-on-using-the-tenant-id)
