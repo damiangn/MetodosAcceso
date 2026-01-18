@@ -16,13 +16,9 @@ Con esto el nodo ya estáregistrado, ahora solo falta compilar el código en el 
 
 **Nota:** *Al DevEUI se lo obtiene desde el ropio arduino con el comando `sys get hweui`* desde el Arduino IDE.
 
-## 3. Compilar en el ESP32 el programa [primer_prueba_lorawan.ino](./documentos/primer_prueba_lorawan.ino)
+## 3. Compilar en el ESP32 el siguiente sketch: [a926.ino](./documentos/a926.ino)
 
-Reemplazar los valores que corraspondan en la lineas de:
-
-const char* DEV_EUI = "";  // Obtained from sys get hweui or TTN console\
-const char* APP_EUI = "";  // From TTN Application\
-const char* APP_KEY = "";
+Reemplazar los valores que corraspondan en `AppKey` y `AppEUI`.
 
 Una vez que compile ya debería comunicarse con el servidor, como muestra la siguiente imágen.
 
