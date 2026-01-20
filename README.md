@@ -32,10 +32,10 @@ sudo mv cfssl cfssljson /usr/local/bin/
 ```
 cfssl version
 ```
+***
+### Apartir de acá se siguió el tutorial de la [página web de TTN](https://www.thethingsindustries.com/docs/enterprise/docker/configuration/):
 
-### 2. Apartir de acá se siguió el tutorial de la [página web de TTN](https://www.thethingsindustries.com/docs/enterprise/docker/configuration/):
-
-### 3. Descargar los dos archivos Open source `.yml` de la página y editarlos, configurarlos así (o directamente bajar estos dos):
+### 2. Descargar los dos archivos Open source `.yml` de la página y editarlos, configurarlos así (o directamente bajar estos dos):
 
 `docker-compose.yml`: [ver documento](archivos/docker-compose.yml)
 
@@ -49,7 +49,7 @@ openssl rand -hex 64
 ```
 Pegar estas keys en las líneas 34 y 35 del archivo `ttn-lw-stack-docker.yml`.
 
-### 4. Crear la siguiente estructura de directorios:
+### 3. Crear la siguiente estructura de directorios:
 ```
 docker-compose.yml
 config/
@@ -57,7 +57,7 @@ config/
     └── ttn-lw-stack-docker.yml
 ```
 
-### 5. Generar los certificados autofirmados:
+### 4. Generar los certificados autofirmados:
 Crear un archivo llamado `ca.json`, escribir esto dentro de este archivo:
 ```
 {
@@ -110,13 +110,13 @@ config/
     └── ttn-lw-stack-docker.yml    # configuration file for The Things Stack
 ```
 
-### 6. Para utilizar el certificado `(cert.pem)` y clave `(key.pem)`, también necesita establecer estos permisos:
+### 5. Para utilizar el certificado `(cert.pem)` y clave `(key.pem)`, también necesita establecer estos permisos:
 ```
 sudo chown 886:886 ./cert.pem ./key.pem
 ```
 **Nota**: *Esto es para que cambie el grupo y usuario que accede a estos dos archivos, 886 es el grupo y usuario que crea el docker-compose.yml*
 
-### 7. Proceso en la parte de Docker:
+### 6. Proceso en la parte de Docker:
 Una vez tengamos los certificados y los archivos con la correspondiente estructura de directorios se sigue con los siguientes pasos:
 ```
 sudo docker-compose pull
