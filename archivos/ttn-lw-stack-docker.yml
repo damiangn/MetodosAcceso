@@ -9,18 +9,6 @@ is:
       console-url: "https://192.168.100.9/console"
       identity-server-url: "https://192.168.100.9/oauth"
 
-    # If sending email with Sendgrid
-    # provider: sendgrid
-    # sendgrid:
-    #   api-key: '...'              # enter Sendgrid API key
-
-    # If sending email with SMTP
-    # provider: smtp
-    # smtp:
-    #   address:  '...'             # enter SMTP server address
-    #   username: '...'             # enter SMTP server username
-    #   password: '...'             # enter SMTP server password
-
   # Web UI configuration for "192.168.100.9":
   oauth:
     ui:
