@@ -12,6 +12,8 @@ services:
       - ${DEV_DATA_DIR:-.env/data}/postgres:/var/lib/postgresql/data
     ports:
       - "127.0.0.1:5432:5432"
+    networks:
+      - ttn-network
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U root -d ttn_lorawan"]
       interval: 7s
@@ -27,6 +29,8 @@ services:
       - ${DEV_DATA_DIR:-.env/data}/redis:/data
     ports:
       - "127.0.0.1:6379:6379"
+    networks:
+      - ttn-network
     healthcheck:
       test: ["CMD", "redis-cli", "ping"]
       interval: 5s
@@ -71,6 +75,8 @@ services:
       - "8887:8887"
       - "8889:8889"
       - "1700:1700/udp"
+    networks:
+      - ttn-network
     secrets:
       - ca.pem
       - cert.pem
@@ -78,38 +84,18 @@ services:
 
   mosquitto:
     image: eclipse-mosquitto:2.0
+    container_name: mosquitto
     ports:
       - "1883:1883"
     volumes:
       - ./mosquitto/config:/mosquitto/config
       - ./mosquitto/data:/mosquitto/data
+    networks:
+      - ttn-network
 
-  influxdb:
-    image: influxdb:2.7
-    ports:
-      - "8086:8086"
-    environment:
-      - DOCKER_INFLUXDB_INIT_MODE=setup
-      - DOCKER_INFLUXDB_INIT_USERNAME=admin
-      - DOCKER_INFLUXDB_INIT_PASSWORD=password123
-      - DOCKER_INFLUXDB_INIT_ORG=unrc
-      - DOCKER_INFLUXDB_INIT_BUCKET=lorawan_data
-    volumes:
-      - ./influxdb/data:/var/lib/influxdb2
-
-  telegraf:
-    image: telegraf:latest
-    depends_on:
-      - influxdb
-    volumes:
-      - ./telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:ro
-
-  grafana:
-    image: grafana/grafana-oss:latest
-    ports:
-      - "3000:3000"
-    depends_on:
-      - influxdb
+networks:
+  ttn-network:
+    external: true
 
 secrets:
   ca.pem:
