@@ -26,3 +26,19 @@
 
 `at+version` ==> Versión del firmware del dispositivo.
 ***
+
+### Registrar RAK811 en TTN:
+
+Hacerlo en modo manual, seleccionar:
+
+- Frequency plan > `AU915 FSB2`
+
+- LoRaWAN version> `LoRaWAN specification 1.0.2`
+
+- Regional parameters version> `RP001 1.0.2`
+
+- JoinEUI> `se debe escribir uno manualmente, o pedir a la IA que genere uno`.
+
+- DevEUI> `Propio del equipop`.
+
+- AppKEY> `Generar uno desde TTN`

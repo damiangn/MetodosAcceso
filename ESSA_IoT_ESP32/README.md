@@ -20,9 +20,10 @@ Con esto el nodo ya estáregistrado, ahora solo falta compilar el código en el 
 
 Reemplazar los valores que corraspondan en `AppKey` y `AppEUI`.
 
-Una vez que compile ya debería comunicarse con el servidor, como muestra la siguiente imágen.
+Una vez que compile ya debería comunicarse con el servidor, como muestra la siguiente imágen. (actualizarla)
 
 ![](./imagenes/LiveData.jpg)
+
 
 
 
