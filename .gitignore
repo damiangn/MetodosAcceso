@@ -1,0 +1,5 @@
+# Certificados y claves
+*.pem
+
+# Datos del docker de TTN
+archivos/.env/
