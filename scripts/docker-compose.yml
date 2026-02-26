@@ -21,7 +21,6 @@ services:
     container_name: telegraf_unrc
     depends_on:
       - influxdb
-      - mosquitto
     volumes:
       # Montamos el archivo de configuración que crearás abajo
       - ./telegraf.conf:/etc/telegraf/telegraf.conf:ro
@@ -38,26 +37,10 @@ services:
       - influxdb
     volumes:
       - grafana_data:/var/lib/grafana
-
-  # Broker MQTT (Opcional, para pruebas locales)
-  mosquitto:
-    image: eclipse-mosquitto
-    container_name: mosquitto_unrc
-    ports:
-      - "1883:1883"
-      - "9001:9001"
-    # Comando para permitir conexiones anónimas (facilidad de prueba)
-    command: > 
-      mosquitto -c /mosquitto-no-auth.conf 
-      
-    # Creamos una config al vuelo para permitir acceso anónimo en puerto 1883
-    entrypoint: 
-      - sh
-      - -c
-      - |
-        echo "listener 1883" > /mosquitto-no-auth.conf
-        echo "allow_anonymous true" >> /mosquitto-no-auth.conf
-        /usr/sbin/mosquitto -c /mosquitto-no-auth.conf
+      - ./grafana-provisioning:/etc/grafana/provisioning
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=password123
 
 volumes:
   influxdb_data:
