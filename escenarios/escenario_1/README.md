@@ -27,11 +27,11 @@ El AppKey es secreto (nunca se envía sobre la red)
 Join-request, tiene los siguientes campos: AppEUI - DevEUI - DevNonce  
 El DevNonce es un número de 2 bytes que permite saber la cantidad de veces que quiso hacer JOIN un end device, si se repite un numero usado, puede ser un ataque de repetición  
 
-The Message Integrity Code (MIC) is calculated over all the fields in the Join-request message using the AppKey. The calculated MIC is then added to the Join-request message.  
+El Message Integrity Code (MIC) es calculado con todos los campos en el mensaje Join-request usando el AppKey. El MIC se calcula y luego es agregado al mensaje Join-request.  
 Join-accept, tiene los siguientes campos: AppNonce - NetID - DevAddr - DLSettings - RXDelay - CFList  
-The Join-accept message itself is then encrypted with the AppKey. The Network Server uses an AES decrypt operation in ECB mode to encrypt the Join-accept message.  
+El mensaje Join-accept (Downlink) se encripta con la AppKey. El Network Server usa una operación de desencriptación AES en modo ECB para encriptar el mensaje Join-accept.  
 
-AppNonce – a random value or unique ID provided by the Network Server. The AppNonce is used by the end device to derive the two session keys, AppSKey and NwkSKey.
+El AppNonce es un valor al azar o una ID única provisionada por el Network Server. El AppNonce es usado por el End Device para derivar las 2 claves de sesiones, AppSKey y NwkSKey.
 
 ## Join-request
 Paquete capturado en Wireshark:  
