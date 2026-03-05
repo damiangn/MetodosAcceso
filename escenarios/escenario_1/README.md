@@ -1,4 +1,4 @@
-# Demostración del protocolo de acceso escenario 1
+# Demostración del protocolo de activación y gestión de identidad
 Aquí se realizo utilizó un End Device (RAK A2) para hacer un Join OTAA a la red, se fueron capturando los mensajes correspondientes en Wireshark  
 Además de hacer Join OTAA luego se envío un mensaje, el cual contiene la palabra "hola"
 
