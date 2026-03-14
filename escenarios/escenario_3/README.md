@@ -16,8 +16,11 @@ Se generaron colisiones intencionales aumentando progresivamente la carga de la 
 - Mismo canal y mismo SF (para generar colisiones).
 
 ### Scripts utilizados (para los 2 RAK811)
-- **[enviar_datos_ttyUSB0.py](./scripts/enviar_datos_ttyUSB0.py)** 
-- **[enviar_datos_ttyUSB1.py](./scripts/enviar_datos_ttyUSB1.py)** 
+- **[enviar_datos_ttyUSB0.py](.RAK811/scripts/enviar_datos_ttyUSB0.py)** 
+- **[enviar_datos_ttyUSB1.py](.RAK811/scripts/enviar_datos_ttyUSB1.py)** 
+
+### Scripts utilizados (para los 3 EESA)
+- **[EESA-ABP-DELAY-CERO.ino](./EESA_IoT/EESA-ABP-DELAY-CERO.ino)** 
 
 ### Pasos para reproducir el escenario
 
