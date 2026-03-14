@@ -29,7 +29,10 @@ Se generaron colisiones intencionales aumentando progresivamente la carga de la 
    at+set_config=lora:dr:2
    ```
 
-   En los 3 nodos EESA-IOT → se programó directamente en Arduino IDE con `lm.setClass(2)` (Clase C).
+   En los 3 nodos EESA-IOT (por comandos Serial UART a traves del USB):
+   ```bash
+   Serial1.println("mac set class c");
+   ```
 
 2. **Ejecutar los scripts de los RAK811** (en dos terminales):
 
@@ -42,6 +45,11 @@ Se generaron colisiones intencionales aumentando progresivamente la carga de la 
    ```bash
    python3 scripts/enviar_datos_ttyUSB1.py
    ```
+   **En los EESA IoT**
+   Modificar la línea:
+   ```bash
+   int baseIntervalSecs = 1;
+   ```
 
 3. **Variar los tiempos de envío** (como se explica en el informe)  
    Se comenzó con intervalos largos (~10 s) y se fueron reduciendo progresivamente (hasta 2-3 s) para aumentar la carga y observar el aumento de colisiones.
@@ -52,4 +60,4 @@ Se generaron colisiones intencionales aumentando progresivamente la carga de la 
 - Los 3 nodos EESA-IOT + 2 RAK811 generan suficiente tráfico para visualizar el punto de saturación.
 
 **Nota:** Para detener los scripts usa `Ctrl + C`.  
-Los nodos EESA-IOT se configuraron directamente en el código Arduino (no usan estos scripts Python).
+En los nodos EESA-IOT se debe desconectar la alimentación.
