@@ -4,7 +4,7 @@ import pynmea2
 import re
 
 # Configuracion (Configuration)
-LORA_PORT = '/dev/ttyUSB3'
+LORA_PORT = '/dev/ttyUSB0'
 GPS_PORT = '/dev/ttyUSB1'
 BAUD_LORA = 115200
 BAUD_GPS = 4800 
