@@ -1,0 +1,261 @@
+# 2026-02-24 20:12:22 by RouterOS 7.21
+# software id = C2WE-QQAP
+#
+Columns: TIME, GWID, MSGTYPE, DEVADDR, MVER, FCNT, CRC, TYPE, FREQHZ, MOD, BAND, DATARATE, CODERATE, IFCHAIN, TXMODE, COUNTER, RFCHAIN
+  #  TIME        GWID              MSGTYPE                DEVADDR      MVER        FCNT  CRC  TY  FREQHZ  MOD   BAND     DATAR  COD  I  TXMODE          COUNTER  R
+  0  2026-02-20  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   402  Ok   Rx  917600  LoRa  125 kHz  SF 11  4/5  4                963076387  1
+     16:12:44                                                                                                                                                     
+  1  2026-02-20  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   404  Ok   Rx  917800  LoRa  125 kHz  SF 11  4/5  5               1003091189  1
+     16:13:24                                                                                                                                                     
+  2  2026-02-20  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   406  Ok   Rx  917800  LoRa  125 kHz  SF 11  4/5  5               1043054506  1
+     16:14:04                                                                                                                                                     
+  3  2026-02-20  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   408  Ok   Rx  917800  LoRa  125 kHz  SF 11  4/5  5               1083071691  1
+     16:14:44                                                                                                                                                     
+  4  2026-02-20  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   410  Ok   Rx  917800  LoRa  125 kHz  SF 11  4/5  5               1123092746  1
+     16:15:24                                                                                                                                                     
+  5  2026-02-20  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   413  Ok   Rx  917800  LoRa  125 kHz  SF 11  4/5  5               1183081954  1
+     16:16:24                                                                                                                                                     
+  6  2026-02-20  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   414  Ok   Rx  917800  LoRa  125 kHz  SF 11  4/5  5               1203063395  1
+     16:16:44                                                                                                                                                     
+  7  2026-02-20  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   415  Ok   Rx  917800  LoRa  125 kHz  SF 11  4/5  5               1223043518  1
+     16:17:04                                                                                                                                                     
+  8  2026-02-20  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   416  Ok   Rx  917800  LoRa  125 kHz  SF 11  4/5  5               1243070293  1
+     16:17:24                                                                                                                                                     
+  9  2026-02-20  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   417  Ok   Rx  917800  LoRa  125 kHz  SF 11  4/5  5               1263050598  1
+     16:17:44                                                                                                                                                     
+ 10  2026-02-20  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   418  Ok   Rx  917800  LoRa  125 kHz  SF 11  4/5  5               1283079680  1
+     16:18:04                                                                                                                                                     
+ 11  2026-02-20  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   419  Ok   Rx  917800  LoRa  125 kHz  SF 9   4/5  5               1341320648  1
+     16:19:02                                                                                                                                                     
+ 12  2026-02-20  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   346       Tx  926300  LoRa  500 kHz  SF 9   4/5     Timestamped  1346320648  0
+     16:19:03                                                                                                                                                     
+ 13  2026-02-20  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   420  Ok   Rx  916800  LoRa  125 kHz  SF 11  4/5  0               1362086666  0
+     16:19:23                                                                                                                                                     
+ 14  2026-02-20  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   421  Ok   Rx  917800  LoRa  125 kHz  SF 11  4/5  5               1382059307  1
+     16:19:43                                                                                                                                                     
+ 15  2026-02-20  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   422  Ok   Rx  917400  LoRa  125 kHz  SF 11  4/5  3               1853062021  0
+     16:27:34                                                                                                                                                     
+ 16  2026-02-20  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   423  Ok   Rx  917200  LoRa  125 kHz  SF 11  4/5  2               1873092453  0
+     16:27:54                                                                                                                                                     
+ 17  2026-02-20  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   424  Ok   Rx  918200  LoRa  125 kHz  SF 11  4/5  7               1893071797  1
+     16:28:14                                                                                                                                                     
+ 18  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   425  Ok   Rx  917800  LoRa  125 kHz  SF 11  4/5  5               1922072603  1
+     19:46:33                                                                                                                                                     
+ 19  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   426  Ok   Rx  916800  LoRa  125 kHz  SF 11  4/5  0               1942059071  0
+     19:46:53                                                                                                                                                     
+ 20  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   427  Ok   Rx  918000  LoRa  125 kHz  SF 7   4/5  6               1973136224  1
+     19:47:24                                                                                                                                                     
+ 21  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   347       Tx  926900  LoRa  500 kHz  SF 7   4/5     Timestamped  1978136224  0
+     19:47:24                                                                                                                                                     
+ 22  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   428  Ok   Rx  917000  LoRa  125 kHz  SF 9   4/5  1               1993342978  0
+     19:47:44                                                                                                                                                     
+ 23  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   348       Tx  923900  LoRa  500 kHz  SF 9   4/5     Timestamped  1998342978  0
+     19:47:45                                                                                                                                                     
+ 24  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   429  Ok   Rx  917600  LoRa  125 kHz  SF 9   4/5  4               2013324114  1
+     19:48:04                                                                                                                                                     
+ 25  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   349       Tx  925700  LoRa  500 kHz  SF 9   4/5     Timestamped  2018324114  0
+     19:48:05                                                                                                                                                     
+ 26  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   430  Ok   Rx  917600  LoRa  125 kHz  SF 9   4/5  4               2033353769  1
+     19:48:24                                                                                                                                                     
+ 27  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   350       Tx  925700  LoRa  500 kHz  SF 9   4/5     Timestamped  2038353769  0
+     19:48:25                                                                                                                                                     
+ 28  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   431  Ok   Rx  917200  LoRa  125 kHz  SF 9   4/5  2               2053336802  0
+     19:48:44                                                                                                                                                     
+ 29  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   351       Tx  924500  LoRa  500 kHz  SF 9   4/5     Timestamped  2058336802  0
+     19:48:45                                                                                                                                                     
+ 30  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   432  Ok   Rx  917000  LoRa  125 kHz  SF 9   4/5  1               2073324888  0
+     19:49:04                                                                                                                                                     
+ 31  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   352       Tx  923900  LoRa  500 kHz  SF 9   4/5     Timestamped  2078324888  0
+     19:49:05                                                                                                                                                     
+ 32  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   433  Ok   Rx  918000  LoRa  125 kHz  SF 9   4/5  6               2093363226  1
+     19:49:24                                                                                                                                                     
+ 33  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   353       Tx  926900  LoRa  500 kHz  SF 9   4/5     Timestamped  2098363226  0
+     19:49:25                                                                                                                                                     
+ 34  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   434  Ok   Rx  916800  LoRa  125 kHz  SF 9   4/5  0               2113348012  0
+     19:49:44                                                                                                                                                     
+ 35  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   354       Tx  923300  LoRa  500 kHz  SF 9   4/5     Timestamped  2118348012  0
+     19:49:45                                                                                                                                                     
+ 36  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   435  Ok   Rx  918200  LoRa  125 kHz  SF 9   4/5  7               2133335227  1
+     19:50:04                                                                                                                                                     
+ 37  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   355       Tx  927500  LoRa  500 kHz  SF 9   4/5     Timestamped  2138335227  0
+     19:50:05                                                                                                                                                     
+ 38  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   436  Ok   Rx  917800  LoRa  125 kHz  SF 9   4/5  5               2153326479  1
+     19:50:24                                                                                                                                                     
+ 39  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   356       Tx  926300  LoRa  500 kHz  SF 9   4/5     Timestamped  2158326479  0
+     19:50:25                                                                                                                                                     
+ 40  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   437  Ok   Rx  917400  LoRa  125 kHz  SF 9   4/5  3               2173360325  0
+     19:50:44                                                                                                                                                     
+ 41  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   357       Tx  925100  LoRa  500 kHz  SF 9   4/5     Timestamped  2178360325  0
+     19:50:45                                                                                                                                                     
+ 42  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   438  Ok   Rx  917400  LoRa  125 kHz  SF 9   4/5  3               2193340346  0
+     19:51:04                                                                                                                                                     
+ 43  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   358       Tx  925100  LoRa  500 kHz  SF 9   4/5     Timestamped  2198340346  0
+     19:51:05                                                                                                                                                     
+ 44  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   439  Ok   Rx  918000  LoRa  125 kHz  SF 9   4/5  6               2213321489  1
+     19:51:24                                                                                                                                                     
+ 45  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   359       Tx  926900  LoRa  500 kHz  SF 9   4/5     Timestamped  2218321489  0
+     19:51:25                                                                                                                                                     
+ 46  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   440  Ok   Rx  917600  LoRa  125 kHz  SF 9   4/5  4               2233353410  1
+     19:51:44                                                                                                                                                     
+ 47  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   360       Tx  925700  LoRa  500 kHz  SF 9   4/5     Timestamped  2238353410  0
+     19:51:45                                                                                                                                                     
+ 48  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   441  Ok   Rx  916800  LoRa  125 kHz  SF 9   4/5  0               2253336521  0
+     19:52:04                                                                                                                                                     
+ 49  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   361       Tx  923300  LoRa  500 kHz  SF 9   4/5     Timestamped  2258336521  0
+     19:52:05                                                                                                                                                     
+ 50  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   442  Ok   Rx  917000  LoRa  125 kHz  SF 9   4/5  1               2273319441  0
+     19:52:24                                                                                                                                                     
+ 51  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   362       Tx  923900  LoRa  500 kHz  SF 9   4/5     Timestamped  2278319441  0
+     19:52:25                                                                                                                                                     
+ 52  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   443  Ok   Rx  918200  LoRa  125 kHz  SF 9   4/5  7               2293349274  1
+     19:52:44                                                                                                                                                     
+ 53  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   363       Tx  927500  LoRa  500 kHz  SF 9   4/5     Timestamped  2298349274  0
+     19:52:45                                                                                                                                                     
+ 54  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   444  Ok   Rx  917200  LoRa  125 kHz  SF 9   4/5  2               2313325974  0
+     19:53:04                                                                                                                                                     
+ 55  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   364       Tx  924500  LoRa  500 kHz  SF 9   4/5     Timestamped  2318325974  0
+     19:53:05                                                                                                                                                     
+ 56  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   445  Ok   Rx  917800  LoRa  125 kHz  SF 9   4/5  5               2333356277  1
+     19:53:24                                                                                                                                                     
+ 57  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   365       Tx  926300  LoRa  500 kHz  SF 9   4/5     Timestamped  2338356277  0
+     19:53:25                                                                                                                                                     
+ 58  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   446  Ok   Rx  917600  LoRa  125 kHz  SF 9   4/5  4               2353335447  1
+     19:53:44                                                                                                                                                     
+ 59  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   366       Tx  925700  LoRa  500 kHz  SF 9   4/5     Timestamped  2358335447  0
+     19:53:45                                                                                                                                                     
+ 60  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   447  Ok   Rx  918200  LoRa  125 kHz  SF 9   4/5  7               2373363802  1
+     19:54:04                                                                                                                                                     
+ 61  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   367       Tx  927500  LoRa  500 kHz  SF 9   4/5     Timestamped  2378363802  0
+     19:54:05                                                                                                                                                     
+ 62  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   448  Ok   Rx  916800  LoRa  125 kHz  SF 9   4/5  0               2393338699  0
+     19:54:24                                                                                                                                                     
+ 63  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   368       Tx  923300  LoRa  500 kHz  SF 9   4/5     Timestamped  2398338699  0
+     19:54:25                                                                                                                                                     
+ 64  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   449  Ok   Rx  917000  LoRa  125 kHz  SF 9   4/5  1               2413361717  0
+     19:54:44                                                                                                                                                     
+ 65  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   369       Tx  923900  LoRa  500 kHz  SF 9   4/5     Timestamped  2418361717  0
+     19:54:45                                                                                                                                                     
+ 66  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   450  Ok   Rx  917200  LoRa  125 kHz  SF 9   4/5  2               2433341041  0
+     19:55:04                                                                                                                                                     
+ 67  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   370       Tx  924500  LoRa  500 kHz  SF 9   4/5     Timestamped  2438341041  0
+     19:55:05                                                                                                                                                     
+ 68  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   451  Ok   Rx  918000  LoRa  125 kHz  SF 9   4/5  6               2453366793  1
+     19:55:24                                                                                                                                                     
+ 69  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   371       Tx  926900  LoRa  500 kHz  SF 9   4/5     Timestamped  2458366793  0
+     19:55:25                                                                                                                                                     
+ 70  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   452  Ok   Rx  917400  LoRa  125 kHz  SF 9   4/5  3               2473341227  0
+     19:55:44                                                                                                                                                     
+ 71  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   372       Tx  925100  LoRa  500 kHz  SF 9   4/5     Timestamped  2478341227  0
+     19:55:45                                                                                                                                                     
+ 72  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   453  Ok   Rx  917800  LoRa  125 kHz  SF 9   4/5  5               2493365704  1
+     19:56:04                                                                                                                                                     
+ 73  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   373       Tx  926300  LoRa  500 kHz  SF 9   4/5     Timestamped  2498365704  0
+     19:56:05                                                                                                                                                     
+ 74  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   454  Ok   Rx  917600  LoRa  125 kHz  SF 9   4/5  4               2513349875  1
+     19:56:24                                                                                                                                                     
+ 75  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   374       Tx  925700  LoRa  500 kHz  SF 9   4/5     Timestamped  2518349875  0
+     19:56:25                                                                                                                                                     
+ 76  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   455  Ok   Rx  918200  LoRa  125 kHz  SF 9   4/5  7               2533332377  1
+     19:56:44                                                                                                                                                     
+ 77  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   375       Tx  927500  LoRa  500 kHz  SF 9   4/5     Timestamped  2538332377  0
+     19:56:45                                                                                                                                                     
+ 78  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   456  Ok   Rx  916800  LoRa  125 kHz  SF 9   4/5  0               2553369973  0
+     19:57:04                                                                                                                                                     
+ 79  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   376       Tx  923300  LoRa  500 kHz  SF 9   4/5     Timestamped  2558369973  0
+     19:57:05                                                                                                                                                     
+ 80  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   458  Ok   Rx  917000  LoRa  125 kHz  SF 9   4/5  1               2593356383  0
+     19:57:44                                                                                                                                                     
+ 81  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   377       Tx  923900  LoRa  500 kHz  SF 9   4/5     Timestamped  2598356383  0
+     19:57:45                                                                                                                                                     
+ 82  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   459  Ok   Rx  917200  LoRa  125 kHz  SF 9   4/5  2               2613344730  0
+     19:58:04                                                                                                                                                     
+ 83  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   378       Tx  924500  LoRa  500 kHz  SF 9   4/5     Timestamped  2618344730  0
+     19:58:05                                                                                                                                                     
+ 84  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   460  Ok   Rx  917800  LoRa  125 kHz  SF 9   4/5  5               2633331755  1
+     19:58:24                                                                                                                                                     
+ 85  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   379       Tx  926300  LoRa  500 kHz  SF 9   4/5     Timestamped  2638331755  0
+     19:58:25                                                                                                                                                     
+ 86  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   461  Ok   Rx  917400  LoRa  125 kHz  SF 9   4/5  3               2653367338  0
+     19:58:44                                                                                                                                                     
+ 87  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   380       Tx  925100  LoRa  500 kHz  SF 9   4/5     Timestamped  2658367338  0
+     19:58:45                                                                                                                                                     
+ 88  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   467  Ok   Rx  917400  LoRa  125 kHz  SF 9   4/5  3               2773333622  0
+     20:00:44                                                                                                                                                     
+ 89  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   381       Tx  925100  LoRa  500 kHz  SF 9   4/5     Timestamped  2778333622  0
+     20:00:45                                                                                                                                                     
+ 90  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   468  Ok   Rx  917200  LoRa  125 kHz  SF 11  4/5  2               2794065512  0
+     20:01:05                                                                                                                                                     
+ 91  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   469  Ok   Rx  918200  LoRa  125 kHz  SF 11  4/5  7               2814059552  1
+     20:01:25                                                                                                                                                     
+ 92  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   471  Ok   Rx  916800  LoRa  125 kHz  SF 9   4/5  0               2909836949  0
+     20:03:01                                                                                                                                                     
+ 93  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   382       Tx  923300  LoRa  500 kHz  SF 9   4/5     Timestamped  2914836949  0
+     20:03:01                                                                                                                                                     
+ 94  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   472  Ok   Rx  918000  LoRa  125 kHz  SF 11  4/5  6               2930566882  1
+     20:03:21                                                                                                                                                     
+ 95  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   473  Ok   Rx  917000  LoRa  125 kHz  SF 11  4/5  1               2950555653  0
+     20:03:41                                                                                                                                                     
+ 96  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   474  Ok   Rx  918200  LoRa  125 kHz  SF 11  4/5  7               2970540959  1
+     20:04:01                                                                                                                                                     
+ 97  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   476  Ok   Rx  917600  LoRa  125 kHz  SF 9   4/5  4               3026356633  1
+     20:04:57                                                                                                                                                     
+ 98  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   383       Tx  925700  LoRa  500 kHz  SF 9   4/5     Timestamped  3031356633  0
+     20:04:58                                                                                                                                                     
+ 99  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   477  Ok   Rx  917200  LoRa  125 kHz  SF 11  4/5  2               3047078643  0
+     20:05:18                                                                                                                                                     
+100  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   478  Ok   Rx  917400  LoRa  125 kHz  SF 10  4/5  3               3091541154  0
+     20:06:02                                                                                                                                                     
+101  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   384       Tx  925100  LoRa  500 kHz  SF 10  4/5     Timestamped  3096541154  0
+     20:06:03                                                                                                                                                     
+102  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   481  Ok   Rx  916800  LoRa  125 kHz  SF 10  4/5  0               3151534929  0
+     20:07:02                                                                                                                                                     
+103  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   385       Tx  923300  LoRa  500 kHz  SF 10  4/5     Timestamped  3156534929  0
+     20:07:03                                                                                                                                                     
+104  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   483  Ok   Rx  917200  LoRa  125 kHz  SF 10  4/5  2               3191544125  0
+     20:07:42                                                                                                                                                     
+105  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   386       Tx  924500  LoRa  500 kHz  SF 10  4/5     Timestamped  3196544125  0
+     20:07:43                                                                                                                                                     
+106  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   484  Ok   Rx  917000  LoRa  125 kHz  SF 10  4/5  1               3211573830  0
+     20:08:02                                                                                                                                                     
+107  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   387       Tx  923900  LoRa  500 kHz  SF 10  4/5     Timestamped  3216573830  0
+     20:08:03                                                                                                                                                     
+108  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   485  Ok   Rx  917600  LoRa  125 kHz  SF 10  4/5  4               3231557759  1
+     20:08:22                                                                                                                                                     
+109  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   388       Tx  925700  LoRa  500 kHz  SF 10  4/5     Timestamped  3236557759  0
+     20:08:23                                                                                                                                                     
+110  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   486  Ok   Rx  917400  LoRa  125 kHz  SF 10  4/5  3               3251544844  0
+     20:08:42                                                                                                                                                     
+111  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   389       Tx  925100  LoRa  500 kHz  SF 10  4/5     Timestamped  3256544844  0
+     20:08:43                                                                                                                                                     
+112  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   487  Ok   Rx  917800  LoRa  125 kHz  SF 10  4/5  5               3271536621  1
+     20:09:02                                                                                                                                                     
+113  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   390       Tx  926300  LoRa  500 kHz  SF 10  4/5     Timestamped  3276536621  0
+     20:09:03                                                                                                                                                     
+114  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   488  Ok   Rx  917000  LoRa  125 kHz  SF 10  4/5  1               3291573929  0
+     20:09:22                                                                                                                                                     
+115  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   391       Tx  923900  LoRa  500 kHz  SF 10  4/5     Timestamped  3296573929  0
+     20:09:23                                                                                                                                                     
+116  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   489  Ok   Rx  917200  LoRa  125 kHz  SF 10  4/5  2               3311568828  0
+     20:09:42                                                                                                                                                     
+117  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   392       Tx  924500  LoRa  500 kHz  SF 10  4/5     Timestamped  3316568828  0
+     20:09:43                                                                                                                                                     
+118  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   490  Ok   Rx  916800  LoRa  125 kHz  SF 10  4/5  0               3331564677  0
+     20:10:02                                                                                                                                                     
+119  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   393       Tx  923300  LoRa  500 kHz  SF 10  4/5     Timestamped  3336564677  0
+     20:10:03                                                                                                                                                     
+120  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   491  Ok   Rx  918200  LoRa  125 kHz  SF 10  4/5  7               3351558301  1
+     20:10:22                                                                                                                                                     
+121  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   394       Tx  927500  LoRa  500 kHz  SF 10  4/5     Timestamped  3356558301  0
+     20:10:23                                                                                                                                                     
+122  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   492  Ok   Rx  918000  LoRa  125 kHz  SF 12  4/5  6               3372906492  1
+     20:10:44                                                                                                                                                     
+123  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   493  Ok   Rx  917600  LoRa  125 kHz  SF 12  4/5  4               3392897192  1
+     20:11:04                                                                                                                                                     
+124  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   494  Ok   Rx  917600  LoRa  125 kHz  SF 12  4/5  4               3412888624  1
+     20:11:24                                                                                                                                                     
+125  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   495  Ok   Rx  917800  LoRa  125 kHz  SF 10  4/5  5               3441545125  1
+     20:11:52                                                                                                                                                     
+126  2026-02-24  04F41CFFFF496AF3  Unconfirmed Data Down  01 BB 33 81  LoRaWAN R1   395       Tx  926300  LoRa  500 kHz  SF 10  4/5     Timestamped  3446545125  0
+     20:11:53                                                                                                                                                     
+127  2026-02-24  04F41CFFFF496AF3  Confirmed Data Up      01 BB 33 81  LoRaWAN R1   496  Ok   Rx  917400  LoRa  125 kHz  SF 12  4/5  3               3462895624  0
+     20:12:14                                                                                                                                                     
