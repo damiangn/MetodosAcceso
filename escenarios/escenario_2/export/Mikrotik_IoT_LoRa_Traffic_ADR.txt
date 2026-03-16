@@ -1,0 +1,898 @@
+# 2026-03-09 19:30:44 by RouterOS 7.21
+# software id = C2WE-QQAP
+#
+ 0 time=2026-02-26 18:33:53 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=170 type="Rx" freqhz=917000 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="1" 
+   crc="Ok" counter="3127852975" rfchain="0" rssi="-81.10" snr="11.00" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="53490" size="34" 
+   data="gDLqIACCqgADBwLpV5NmT8yDPoFlotZ0TrxF8QoICsI7xw==" 
+
+ 1 time=2026-02-26 18:33:53 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=91 type="Tx" freqhz=923900 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3132852975" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="17" data="YDLqIAClWwADWgD/A9lOf+s=" 
+
+ 2 time=2026-02-26 18:34:13 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=171 type="Rx" freqhz=916800 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="0" 
+   crc="Ok" counter="3147845305" rfchain="0" rssi="-79.10" snr="10.00" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="5231" size="34" 
+   data="gDLqIACCqwADBwKz3qCoytUtGTbcMijjcEzzl8pYtzcwBw==" 
+
+ 3 time=2026-02-26 18:34:13 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=92 type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3152845305" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgXABZ5olx" 
+
+ 4 time=2026-02-26 18:34:33 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=172 type="Rx" freqhz=917200 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="2" 
+   crc="Ok" counter="3167880394" rfchain="0" rssi="-73.11" snr="10.25" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="40539" size="32" 
+   data="gDLqIACArAACP251pI6j9Q4Fjw7ndflKsoO7p4lDwSw=" 
+
+ 5 time=2026-02-26 18:34:33 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=93 type="Tx" freqhz=924500 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3172880394" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgXQDriDWO" 
+
+ 6 time=2026-02-26 18:34:53 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=173 type="Rx" freqhz=917800 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="5" 
+   crc="Ok" counter="3187867212" rfchain="1" rssi="-78.11" snr="12.50" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="16891" size="32" 
+   data="gDLqIACArQACD6NMNYp8iZZY6QLSXQFZG8Siie/zx2o=" 
+
+ 7 time=2026-02-26 18:34:53 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=94 type="Tx" freqhz=926300 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3192867212" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgXgBoMEv0" 
+
+ 8 time=2026-02-26 18:35:13 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=174 type="Rx" freqhz=918000 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="6" 
+   crc="Ok" counter="3207855947" rfchain="1" rssi="-83.12" snr="8.75" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="55626" size="32" 
+   data="gDLqIACArgAC0W/w8O+w3K0EGM34KfCbeXmu1CF8EEo=" 
+
+ 9 time=2026-02-26 18:35:13 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=95 type="Tx" freqhz=926900 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3212855947" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgXwCebbrj" 
+
+10 time=2026-02-26 18:35:33 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=175 type="Rx" freqhz=917400 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="3" 
+   crc="Ok" counter="3227894262" rfchain="0" rssi="-64.13" snr="14.00" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="35433" size="32" 
+   data="gDLqIACArwAC2fXhBXD+nRz0W4xsZAsZBiV2MnyXJbc=" 
+
+11 time=2026-02-26 18:35:33 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=96 type="Tx" freqhz=925100 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3232894262" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgYACJkhuV" 
+
+12 time=2026-02-26 18:35:53 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=176 type="Rx" freqhz=917600 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="4" 
+   crc="Ok" counter="3247883898" rfchain="1" rssi="-62.13" snr="13.25" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="17516" size="32" 
+   data="gDLqIACAsAACiPT9LhrKs/4ro90m1ctCzdT+QqGM4xE=" 
+
+13 time=2026-02-26 18:35:53 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=97 type="Tx" freqhz=925700 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3252883898" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgYQDLU+Ms" 
+
+14 time=2026-02-26 18:36:13 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=177 type="Rx" freqhz=918200 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="7" 
+   crc="Ok" counter="3267873776" rfchain="1" rssi="-58.14" snr="13.25" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="16099" size="32" 
+   data="gDLqIACAsQACHAhsgTC128fcbhxMDuUUV5ZIaiPfEjc=" 
+
+15 time=2026-02-26 18:36:13 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=98 type="Tx" freqhz=927500 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3272873776" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgYgCeIOrU" 
+
+16 time=2026-02-26 18:36:33 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=178 type="Rx" freqhz=918000 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="6" 
+   crc="Ok" counter="3287861781" rfchain="1" rssi="-56.14" snr="10.75" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="53893" size="32" 
+   data="gDLqIACAsgACNJhY3fvSTbvqxYGrmhP0inx3Pqx47vw=" 
+
+17 time=2026-02-26 18:36:33 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=99 type="Tx" freqhz=926900 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3292861781" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgYwDdIUNh" 
+
+18 time=2026-02-26 18:36:53 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=179 type="Rx" freqhz=917000 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="1" 
+   crc="Ok" counter="3307850179" rfchain="0" rssi="-57.15" snr="13.75" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="48983" size="32" 
+   data="gDLqIACAswACxhdkKhReKU8C1xs1FiVk+S7i4+ZEHrg=" 
+
+19 time=2026-02-26 18:36:53 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=100 type="Tx" freqhz=923900 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3312850179" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgZADePiYb" 
+
+20 time=2026-02-26 18:37:13 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=180 type="Rx" freqhz=917800 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="5" 
+   crc="Ok" counter="3327887899" rfchain="1" rssi="-57.15" snr="13.75" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="35066" size="32" 
+   data="gDLqIACAtAACwxn41RFlnTwigEMuqcMqY6rH6lPTazI=" 
+
+21 time=2026-02-26 18:37:13 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=101 type="Tx" freqhz=926300 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3332887899" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="17" data="YDLqIAClZQADWgD/AoaKWsQ=" 
+
+22 time=2026-02-26 18:37:33 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=181 type="Rx" freqhz=917400 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="3" 
+   crc="Ok" counter="3347883224" rfchain="0" rssi="-54.16" snr="13.00" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="46231" size="34" 
+   data="gDLqIACCtQADBwK2Ud2GR5L9eWl+/T1jH7rYMwF/RxoCzw==" 
+
+23 time=2026-02-26 18:37:33 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=102 type="Tx" freqhz=925100 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3352883224" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgZgDd9et5" 
+
+24 time=2026-02-26 18:37:53 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=182 type="Rx" freqhz=917600 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="4" 
+   crc="Ok" counter="3367871310" rfchain="1" rssi="-59.16" snr="13.75" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="40922" size="32" 
+   data="gDLqIACAtgACFNi3MPRqNhJBIxm9LnjyiimgC+OMCYM=" 
+
+25 time=2026-02-26 18:37:53 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=103 type="Tx" freqhz=925700 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3372871310" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgZwBcxvHg" 
+
+26 time=2026-02-26 18:38:13 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=183 type="Rx" freqhz=917200 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="2" 
+   crc="Ok" counter="3387856854" rfchain="0" rssi="-61.17" snr="10.25" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="23484" size="32" 
+   data="gDLqIACAtwAC5eLxBW9NBMKSw3WMQ/PFFkE3jyW+o8U=" 
+
+27 time=2026-02-26 18:38:13 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=104 type="Tx" freqhz=924500 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3392856854" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgaABABq3f" 
+
+28 time=2026-02-26 18:38:33 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=184 type="Rx" freqhz=916800 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="0" 
+   crc="Ok" counter="3407894851" rfchain="0" rssi="-70.17" snr="13.50" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="64355" size="32" 
+   data="gDLqIACAuAACgtYGsDhrI8ep5RFlFD24mOdn3WTrWXQ=" 
+
+29 time=2026-02-26 18:38:33 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=105 type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3412894851" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgaQAbPXqj" 
+
+30 time=2026-02-26 18:38:53 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=185 type="Rx" freqhz=918200 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="7" 
+   crc="Ok" counter="3427880506" rfchain="1" rssi="-59.18" snr="13.50" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="18804" size="32" 
+   data="gDLqIACAuQACbpkjAJFyXWnwdh5iTMwTrRewZWEUmWE=" 
+
+31 time=2026-02-26 18:38:53 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=106 type="Tx" freqhz=927500 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3432880506" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgagBpy1JT" 
+
+32 time=2026-02-26 18:39:13 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=186 type="Rx" freqhz=917200 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="2" 
+   crc="Ok" counter="3447861831" rfchain="0" rssi="-58.18" snr="10.00" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="16664" size="32" 
+   data="gDLqIACAugACnIsbUw13dw0KQmP/vIo+x1DcO71k96g=" 
+
+33 time=2026-02-26 18:39:13 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=107 type="Tx" freqhz=924500 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3452861831" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgawCsQ+ph" 
+
+34 time=2026-02-26 18:39:33 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=187 type="Rx" freqhz=917000 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="1" 
+   crc="Ok" counter="3467894067" rfchain="0" rssi="-55.18" snr="13.50" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="62446" size="32" 
+   data="gDLqIACAuwACmwgDQN8V46Kic0k60F/umGn8l7n3JtE=" 
+
+35 time=2026-02-26 18:39:33 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=108 type="Tx" freqhz=923900 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3472894067" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgbAB7tZOJ" 
+
+36 time=2026-02-26 18:39:53 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=188 type="Rx" freqhz=917400 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="3" 
+   crc="Ok" counter="3487872635" rfchain="0" rssi="-59.19" snr="13.50" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="53128" size="32" 
+   data="gDLqIACAvAACDwcEIHn3S0hTjkWz4utJUnTkRoxL8II=" 
+
+37 time=2026-02-26 18:39:53 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=109 type="Tx" freqhz=925100 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3492872635" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgbQA0UCw0" 
+
+38 time=2026-02-26 18:40:13 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=189 type="Rx" freqhz=917800 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="5" 
+   crc="Ok" counter="3507902171" rfchain="1" rssi="-56.19" snr="14.00" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="62820" size="32" 
+   data="gDLqIACAvQAC80Yz10kzF4LL8wwlxOajtLpzMwzOrfg=" 
+
+39 time=2026-02-26 18:40:13 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=110 type="Tx" freqhz=926300 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3512902171" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgbgAWZIrO" 
+
+40 time=2026-02-26 18:40:33 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=190 type="Rx" freqhz=917600 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="4" 
+   crc="Ok" counter="3527881750" rfchain="1" rssi="-61.20" snr="13.75" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="26806" size="32" 
+   data="gDLqIACAvgAC9+8380FAHCdnDCNqiOqxAO6kdMTzAzo=" 
+
+41 time=2026-02-26 18:40:33 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=111 type="Tx" freqhz=925700 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3532881750" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="17" data="YDLqIAClbwADWgD/ASLJHiQ=" 
+
+42 time=2026-02-26 18:40:53 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=191 type="Rx" freqhz=916800 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="0" 
+   crc="Ok" counter="3547869088" rfchain="0" rssi="-62.20" snr="13.25" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="23890" size="34" 
+   data="gDLqIACCvwADBwLxxr/66W7GBsVohB0A+ZH+WsEnUgd+LA==" 
+
+43 time=2026-02-26 18:40:53 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=112 type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3552869088" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgcAD08mU1" 
+
+44 time=2026-02-26 18:41:13 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=192 type="Rx" freqhz=918000 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="6" 
+   crc="Ok" counter="3567887319" rfchain="1" rssi="-58.20" snr="11.50" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="12834" size="32" 
+   data="gDLqIACAwAACqlphCKhrxXAQsDRpyy5xVkEYGFGj1R4=" 
+
+45 time=2026-02-26 18:41:13 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=113 type="Tx" freqhz=926900 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3572887319" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgcQBmcDP9" 
+
+46 time=2026-02-26 18:41:33 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=193 type="Rx" freqhz=918200 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="7" 
+   crc="Ok" counter="3587865022" rfchain="1" rssi="-62.21" snr="13.25" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="57123" size="32" 
+   data="gDLqIACAwQACuSqDVixUn2zOBpX1QiavHUiqYUzXEHw=" 
+
+47 time=2026-02-26 18:41:33 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=114 type="Tx" freqhz=927500 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3592865022" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgcgCR+8PE" 
+
+48 time=2026-02-26 18:41:53 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=194 type="Rx" freqhz=917200 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="2" 
+   crc="Ok" counter="3607893338" rfchain="0" rssi="-58.21" snr="10.25" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="22519" size="32" 
+   data="gDLqIACAwgACM8iaX9bi/MyRyTHZC67j1BX1xRjAv78=" 
+
+49 time=2026-02-26 18:41:53 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=115 type="Tx" freqhz=924500 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3612893338" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgcwCoPwme" 
+
+50 time=2026-02-26 18:42:13 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=195 type="Rx" freqhz=917000 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="1" 
+   crc="Ok" counter="3627878946" rfchain="0" rssi="-53.21" snr="13.50" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="33630" size="32" 
+   data="gDLqIACAwwACr9+UkgZa0PB3dDzDrM4geQjgesTSJ24=" 
+
+51 time=2026-02-26 18:42:13 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=116 type="Tx" freqhz=923900 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3632878946" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgdADCWdCV" 
+
+52 time=2026-02-26 18:42:33 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=196 type="Rx" freqhz=917600 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="4" 
+   crc="Ok" counter="3647855379" rfchain="1" rssi="-57.22" snr="13.00" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="34448" size="32" 
+   data="gDLqIACAxAACRdtTaTOaJ5rjmFNEJisZJKK4xR2W1PU=" 
+
+53 time=2026-02-26 18:42:33 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=117 type="Tx" freqhz=925700 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3652855379" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgdQAAhTFX" 
+
+54 time=2026-02-26 18:42:53 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=197 type="Rx" freqhz=917800 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="5" 
+   crc="Ok" counter="3667887937" rfchain="1" rssi="-55.22" snr="14.00" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="40720" size="32" 
+   data="gDLqIACAxQACNG3Fw+ZlIrmRPiSJY5KZj35phr259ck=" 
+
+55 time=2026-02-26 18:42:53 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=118 type="Tx" freqhz=926300 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3672887937" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgdgCr/sM5" 
+
+56 time=2026-02-26 18:43:13 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=198 type="Rx" freqhz=918000 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="6" 
+   crc="Ok" counter="3687868685" rfchain="1" rssi="-52.23" snr="11.50" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="8801" size="32" 
+   data="gDLqIACAxgACTSMo2lb+GmkCjSlDfwSgQ8CsxzPAZ98=" 
+
+57 time=2026-02-26 18:43:13 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=119 type="Tx" freqhz=926900 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3692868685" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgdwDOyW5x" 
+
+58 time=2026-02-26 18:43:33 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=199 type="Rx" freqhz=917400 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="3" 
+   crc="Ok" counter="3707894935" rfchain="0" rssi="-53.23" snr="13.25" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="59569" size="32" 
+   data="gDLqIACAxwACkM3be+YY+nCUUZNCFVzlcX+NEmplxXU=" 
+
+59 time=2026-02-26 18:43:33 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=120 type="Tx" freqhz=925100 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3712894935" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgeAC0jZvN" 
+
+60 time=2026-02-26 18:43:53 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=200 type="Rx" freqhz=916800 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="0" 
+   crc="Ok" counter="3727871918" rfchain="0" rssi="-65.23" snr="13.25" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="63086" size="32" 
+   data="gDLqIACAyAACJrCRvTUvZ/B4TRbV17WfOn0aGbrBRkk=" 
+
+61 time=2026-02-26 18:43:53 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=121 type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3732871918" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgeQDdr7fm" 
+
+62 time=2026-02-26 18:44:13 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=201 type="Rx" freqhz=918200 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="7" 
+   crc="Ok" counter="3747854535" rfchain="1" rssi="-54.24" snr="13.50" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="3900" size="32" 
+   data="gDLqIACAyQACQomENHjeF0Y/aO3W7nf2raaCR0ADyuw=" 
+
+63 time=2026-02-26 18:44:13 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=122 type="Tx" freqhz=927500 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3752854535" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="13" data="YDLqIAChegAGEw+9SQ==" 
+
+64 time=2026-02-26 18:44:33 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 20 EA 32" mver="LoRaWAN R1" fcnt=202 type="Rx" freqhz=917800 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="5" 
+   crc="Ok" counter="3767884282" rfchain="1" rssi="-55.24" snr="14.00" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="39421" size="35" 
+   data="gDLqIACDygAG1AYCyMCsCGh8XMjMiAhih90fNlJVDH3LBK8=" 
+
+65 time=2026-02-26 18:44:33 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 20 EA 32" mver="LoRaWAN R1" 
+   fcnt=123 type="Tx" freqhz=926300 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="3772884282" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDLqIACgewBeM8nB" 
+
+66 time=2026-03-09 19:08:04 gwid="04F41CFFFF496AF3" msgtype="Join-request" 
+   mver="LoRaWAN R1" type="Rx" joineui="70 B3 D5 7E D0 06 15 95" 
+   deveui="37 39 34 35 71 37 59 01" devnonce="48043" freqhz=916800 mod="LoRa" 
+   band="125 kHz" datarate="SF 10" coderate="4/5" ifchain="0" crc="Ok" 
+   counter="4604795529" rfchain="0" rssi="-102.37" snr="-4.25" snrmin="-2.00" 
+   snrmax="-2.00" rxcrc="46845" size="23" 
+   data="AJUVBtB+1bNwAVk3cTU0OTeru/fAE2M=" 
+
+67 time=2026-03-09 19:08:06 gwid="04F41CFFFF496AF3" msgtype="Join-accept" 
+   mver="LoRaWAN R1" type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" 
+   datarate="SF 10" coderate="4/5" txmode="Timestamped" counter="314828233" 
+   rfchain="0" rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" 
+   noheader="No" size="17" data="IP+EyfD6UbJUnXzo2LZoQkg=" 
+
+68 time=2026-03-09 19:08:33 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C5 42 39" mver="LoRaWAN R1" fcnt=0 type="Rx" freqhz=916800 
+   mod="LoRa" band="125 kHz" datarate="SF 10" coderate="4/5" ifchain="0" 
+   crc="Ok" counter="4633300308" rfchain="0" rssi="-101.37" snr="-4.00" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="18195" size="32" 
+   data="gDlCxQCAAAACQohrOEkQWVrp8OLZMUWqR5i4y9JcNhc=" 
+
+69 time=2026-03-09 19:08:33 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C5 42 39" mver="LoRaWAN R1" 
+   fcnt=0 type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" datarate="SF 10" 
+   coderate="4/5" txmode="Timestamped" counter="343333012" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="22" data="YDlCxQCqAAADIAIAcQMgAP8BqRqMVw==" 
+
+70 time=2026-03-09 19:09:13 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C5 42 39" mver="LoRaWAN R1" fcnt=2 type="Rx" freqhz=916800 
+   mod="LoRa" band="125 kHz" datarate="SF 10" coderate="4/5" ifchain="0" 
+   crc="Ok" counter="4673292763" rfchain="0" rssi="-103.38" snr="-5.25" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="62293" size="32" 
+   data="gDlCxQCAAgACEqIKoPdL2gx2Z8L1gvJcav4BF1GEfGg=" 
+
+71 time=2026-03-09 19:09:13 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C5 42 39" mver="LoRaWAN R1" 
+   fcnt=1 type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" datarate="SF 10" 
+   coderate="4/5" txmode="Timestamped" counter="383325467" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="22" data="YDlCxQCqAQADIAIAcQMgAP8BzFh9ng==" 
+
+72 time=2026-03-09 19:09:33 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C5 42 39" mver="LoRaWAN R1" fcnt=3 type="Rx" freqhz=917400 
+   mod="LoRa" band="125 kHz" datarate="SF 10" coderate="4/5" ifchain="3" 
+   crc="Ok" counter="4693349072" rfchain="0" rssi="-109.38" snr="-12.00" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="54275" size="36" 
+   data="gDlCxQCEAwADBwMHAtWTeh8cAPd6ajrKcRzPZuYdOhptp8lo" 
+
+73 time=2026-03-09 19:09:33 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C5 42 39" mver="LoRaWAN R1" 
+   fcnt=2 type="Tx" freqhz=925100 mod="LoRa" band="500 kHz" datarate="SF 10" 
+   coderate="4/5" txmode="Timestamped" counter="403381776" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDlCxQCgAgCC1aBf" 
+
+74 time=2026-03-09 19:09:53 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C5 42 39" mver="LoRaWAN R1" fcnt=4 type="Rx" freqhz=917800 
+   mod="LoRa" band="125 kHz" datarate="SF 10" coderate="4/5" ifchain="5" 
+   crc="Ok" counter="4713275852" rfchain="1" rssi="-107.38" snr="-10.50" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="23774" size="32" 
+   data="gDlCxQCABAACoMXcOoRNStH7RFJSHhaLF1Fw/2L/aY8=" 
+
+75 time=2026-03-09 19:09:53 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C5 42 39" mver="LoRaWAN R1" 
+   fcnt=3 type="Tx" freqhz=926300 mod="LoRa" band="500 kHz" datarate="SF 10" 
+   coderate="4/5" txmode="Timestamped" counter="423308556" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDlCxQCgAwDQbwKL" 
+
+76 time=2026-03-09 19:10:13 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C5 42 39" mver="LoRaWAN R1" fcnt=5 type="Rx" freqhz=916800 
+   mod="LoRa" band="125 kHz" datarate="SF 10" coderate="4/5" ifchain="0" 
+   crc="Ok" counter="4733292992" rfchain="0" rssi="-105.39" snr="-7.75" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="4882" size="32" 
+   data="gDlCxQCABQACq0G0Oouzt/UYHd+aJucsujmVe2SxxT0=" 
+
+77 time=2026-03-09 19:10:13 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C5 42 39" mver="LoRaWAN R1" 
+   fcnt=4 type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" datarate="SF 10" 
+   coderate="4/5" txmode="Timestamped" counter="443325696" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDlCxQCgBAAYZ0A3" 
+
+78 time=2026-03-09 19:10:33 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C5 42 39" mver="LoRaWAN R1" fcnt=6 type="Rx" freqhz=916800 
+   mod="LoRa" band="125 kHz" datarate="SF 10" coderate="4/5" ifchain="0" 
+   crc="Ok" counter="4753261629" rfchain="0" rssi="-105.39" snr="-6.75" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="63537" size="32" 
+   data="gDlCxQCABgACNX5V+jZ+swkwGKg+Jh4pE2loJ3eL4x8=" 
+
+79 time=2026-03-09 19:10:33 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C5 42 39" mver="LoRaWAN R1" 
+   fcnt=5 type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" datarate="SF 10" 
+   coderate="4/5" txmode="Timestamped" counter="463294333" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YDlCxQCgBQCf86+9" 
+
+80 time=2026-03-09 19:11:38 gwid="04F41CFFFF496AF3" msgtype="Join-request" 
+   mver="LoRaWAN R1" type="Rx" joineui="70 B3 D5 7E D0 06 15 95" 
+   deveui="37 39 34 35 71 37 59 01" devnonce="59085" freqhz=916800 mod="LoRa" 
+   band="125 kHz" datarate="SF 10" coderate="4/5" ifchain="0" crc="Ok" 
+   counter="4818436526" rfchain="0" rssi="-105.39" snr="-6.75" snrmin="-2.00" 
+   snrmax="-2.00" rxcrc="36072" size="23" 
+   data="AJUVBtB+1bNwAVk3cTU0OTfN5vPxoRQ=" 
+
+81 time=2026-03-09 19:11:40 gwid="04F41CFFFF496AF3" msgtype="Join-accept" 
+   mver="LoRaWAN R1" type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" 
+   datarate="SF 10" coderate="4/5" txmode="Timestamped" counter="528469230" 
+   rfchain="0" rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" 
+   noheader="No" size="17" data="IBCmLVsg+zG8fXCw9ptPPTQ=" 
+
+82 time=2026-03-09 19:11:51 gwid="04F41CFFFF496AF3" msgtype="Join-request" 
+   mver="LoRaWAN R1" type="Rx" joineui="70 B3 D5 7E D0 06 15 95" 
+   deveui="37 39 34 35 71 37 59 01" devnonce="39333" freqhz=916800 mod="LoRa" 
+   band="125 kHz" datarate="SF 10" coderate="4/5" ifchain="0" crc="Ok" 
+   counter="4830986283" rfchain="0" rssi="-113.40" snr="-16.25" snrmin="-2.00" 
+   snrmax="-2.00" rxcrc="5243" size="23" 
+   data="AJUVBtB+1bNwAVk3cTU0OTelmSbC/U0=" 
+
+83 time=2026-03-09 19:11:52 gwid="04F41CFFFF496AF3" msgtype="Join-accept" 
+   mver="LoRaWAN R1" type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" 
+   datarate="SF 10" coderate="4/5" txmode="Timestamped" counter="541018987" 
+   rfchain="0" rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" 
+   noheader="No" size="17" data="IIhVICDYshKJIsMDu7qETKQ=" 
+
+84 time=2026-03-09 19:12:16 gwid="04F41CFFFF496AF3" msgtype="Join-request" 
+   mver="LoRaWAN R1" type="Rx" joineui="70 B3 D5 7E D0 06 15 95" 
+   deveui="37 39 34 35 71 37 59 01" devnonce="24577" freqhz=916800 mod="LoRa" 
+   band="125 kHz" datarate="SF 10" coderate="4/5" ifchain="0" crc="Ok" 
+   counter="4856533700" rfchain="0" rssi="-107.40" snr="-9.50" snrmin="-2.00" 
+   snrmax="-2.00" rxcrc="46069" size="23" 
+   data="AJUVBtB+1bNwAVk3cTU0OTcBYJoaFpI=" 
+
+85 time=2026-03-09 19:12:18 gwid="04F41CFFFF496AF3" msgtype="Join-accept" 
+   mver="LoRaWAN R1" type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" 
+   datarate="SF 10" coderate="4/5" txmode="Timestamped" counter="566566404" 
+   rfchain="0" rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" 
+   noheader="No" size="17" data="IJr84gw7BAhLISJNdWGRw6o=" 
+
+86 time=2026-03-09 19:12:34 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C2 49 91" mver="LoRaWAN R1" fcnt=0 type="Rx" freqhz=916800 
+   mod="LoRa" band="125 kHz" datarate="SF 10" coderate="4/5" ifchain="0" 
+   crc="Ok" counter="4874781295" rfchain="0" rssi="-107.40" snr="-9.00" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="36040" size="32" 
+   data="gJFJwgCAAAACqpxmWt3TVNPqh86L8blwbgGyDhJAW2g=" 
+
+87 time=2026-03-09 19:12:35 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C2 49 91" mver="LoRaWAN R1" 
+   fcnt=0 type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" datarate="SF 10" 
+   coderate="4/5" txmode="Timestamped" counter="584813999" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="22" data="YJFJwgCqAAADIAIAcQMgAP8BaRaftw==" 
+
+88 time=2026-03-09 19:12:54 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C2 49 91" mver="LoRaWAN R1" fcnt=1 type="Rx" freqhz=916800 
+   mod="LoRa" band="125 kHz" datarate="SF 10" coderate="4/5" ifchain="0" 
+   crc="Ok" counter="4894771438" rfchain="0" rssi="-101.40" snr="-3.25" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="16741" size="32" 
+   data="gJFJwgCAAQACLJPUu0zI8RnrsJVoXF9l9o+R0a+g14c=" 
+
+89 time=2026-03-09 19:12:55 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C2 49 91" mver="LoRaWAN R1" 
+   fcnt=1 type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" datarate="SF 10" 
+   coderate="4/5" txmode="Timestamped" counter="604804142" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="22" data="YJFJwgCqAQADMAIAcQMwAP8BESF/4A==" 
+
+90 time=2026-03-09 19:13:14 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C2 49 91" mver="LoRaWAN R1" fcnt=2 type="Rx" freqhz=917400 
+   mod="LoRa" band="125 kHz" datarate="SF 9" coderate="4/5" ifchain="3" 
+   crc="Ok" counter="4914574725" rfchain="0" rssi="-101.40" snr="-4.25" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="16098" size="36" 
+   data="gJFJwgCEAgADBwMHAmbw+3LF37UbNpZpQr+EdPTTc5s6gV/s" 
+
+91 time=2026-03-09 19:13:15 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C2 49 91" mver="LoRaWAN R1" 
+   fcnt=2 type="Tx" freqhz=925100 mod="LoRa" band="500 kHz" datarate="SF 9" 
+   coderate="4/5" txmode="Timestamped" counter="624607429" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YJFJwgCgAgBu7PhS" 
+
+92 time=2026-03-09 19:13:34 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C2 49 91" mver="LoRaWAN R1" fcnt=3 type="Rx" freqhz=918200 
+   mod="LoRa" band="125 kHz" datarate="SF 9" coderate="4/5" ifchain="7" 
+   crc="Ok" counter="4934539277" rfchain="1" rssi="-100.40" snr="-3.75" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="23642" size="32" 
+   data="gJFJwgCAAwAC+vrxphraH1e85nkyjvpWWv4GDVRgBB8=" 
+
+93 time=2026-03-09 19:13:35 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C2 49 91" mver="LoRaWAN R1" 
+   fcnt=3 type="Tx" freqhz=927500 mod="LoRa" band="500 kHz" datarate="SF 9" 
+   coderate="4/5" txmode="Timestamped" counter="644571981" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YJFJwgCgAwDB7QZM" 
+
+94 time=2026-03-09 19:13:54 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C2 49 91" mver="LoRaWAN R1" fcnt=4 type="Rx" freqhz=917000 
+   mod="LoRa" band="125 kHz" datarate="SF 9" coderate="4/5" ifchain="1" 
+   crc="Ok" counter="4954566974" rfchain="0" rssi="-99.41" snr="-2.00" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="57197" size="32" 
+   data="gJFJwgCABAACM9JEibnrhM+wr7KN3xNi0xKUFzHf3jg=" 
+
+95 time=2026-03-09 19:13:55 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C2 49 91" mver="LoRaWAN R1" 
+   fcnt=4 type="Tx" freqhz=923900 mod="LoRa" band="500 kHz" datarate="SF 9" 
+   coderate="4/5" txmode="Timestamped" counter="664599678" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="17" data="YJFJwgClBAADQAD/AXNjZv0=" 
+
+96 time=2026-03-09 19:14:14 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C2 49 91" mver="LoRaWAN R1" fcnt=5 type="Rx" freqhz=917200 
+   mod="LoRa" band="125 kHz" datarate="SF 8" coderate="4/5" ifchain="2" 
+   crc="Ok" counter="4974435970" rfchain="0" rssi="-100.41" snr="-2.25" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="54115" size="34" 
+   data="gJFJwgCCBQADBwI5RKQEuRuPbncS+jyfB3Sg619cXyf3FA==" 
+
+97 time=2026-03-09 19:14:14 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C2 49 91" mver="LoRaWAN R1" 
+   fcnt=5 type="Tx" freqhz=924500 mod="LoRa" band="500 kHz" datarate="SF 8" 
+   coderate="4/5" txmode="Timestamped" counter="684468674" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YJFJwgCgBQBCTy+C" 
+
+98 time=2026-03-09 19:14:34 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C2 49 91" mver="LoRaWAN R1" fcnt=6 type="Rx" freqhz=917800 
+   mod="LoRa" band="125 kHz" datarate="SF 8" coderate="4/5" ifchain="5" 
+   crc="Ok" counter="4994463909" rfchain="1" rssi="-98.41" snr="-1.75" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="51917" size="32" 
+   data="gJFJwgCABgACoJvtK7fsmLpw/L3sAktW56AoW8ee6j8=" 
+
+99 time=2026-03-09 19:14:35 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C2 49 91" mver="LoRaWAN R1" 
+   fcnt=6 type="Tx" freqhz=926300 mod="LoRa" band="500 kHz" datarate="SF 8" 
+   coderate="4/5" txmode="Timestamped" counter="704496613" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YJFJwgCgBgCN6xJ+" 
+
+100 time=2026-03-09 19:14:54 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C2 49 91" mver="LoRaWAN R1" fcnt=7 type="Rx" freqhz=917600 
+   mod="LoRa" band="125 kHz" datarate="SF 8" coderate="4/5" ifchain="4" 
+   crc="Ok" counter="5014447803" rfchain="1" rssi="-97.42" snr="0.00" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="43628" size="32" 
+   data="gJFJwgCABwAC8bW/NN9vGliqnLNytmmHabXHROfSYEc=" 
+
+101 time=2026-03-09 19:14:55 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C2 49 91" mver="LoRaWAN R1" 
+   fcnt=7 type="Tx" freqhz=925700 mod="LoRa" band="500 kHz" datarate="SF 8" 
+   coderate="4/5" txmode="Timestamped" counter="724480507" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="17" data="YJFJwgClBwADUAD/AfsBoN4=" 
+
+102 time=2026-03-09 19:15:14 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C2 49 91" mver="LoRaWAN R1" fcnt=8 type="Rx" freqhz=916800 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="0" 
+   crc="Ok" counter="5034372838" rfchain="0" rssi="-99.42" snr="-1.25" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="5951" size="34" 
+   data="gJFJwgCCCAADBwKQAtebEKYcpbZxJz66mdrWkXFow9lDDw==" 
+
+103 time=2026-03-09 19:15:14 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C2 49 91" mver="LoRaWAN R1" 
+   fcnt=8 type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="744405542" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YJFJwgCgCABVXWeo" 
+
+104 time=2026-03-09 19:15:34 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C2 49 91" mver="LoRaWAN R1" fcnt=9 type="Rx" freqhz=918000 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="6" 
+   crc="Ok" counter="5054400183" rfchain="1" rssi="-99.42" snr="-4.00" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="12756" size="32" 
+   data="gJFJwgCACQACo+b5gdKSMgiq+UcqMXy9IRolQrz+vrQ=" 
+
+105 time=2026-03-09 19:15:34 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C2 49 91" mver="LoRaWAN R1" 
+   fcnt=9 type="Tx" freqhz=926900 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="764432887" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YJFJwgCgCQB/JyU7" 
+
+106 time=2026-03-09 19:15:54 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C2 49 91" mver="LoRaWAN R1" fcnt=10 type="Rx" freqhz=917400 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="3" 
+   crc="Ok" counter="5074379122" rfchain="0" rssi="-101.42" snr="-4.75" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="39634" size="32" 
+   data="gJFJwgCACgACxb1fvTeHNQVi2QKMLlhWfbMZKCljLMU=" 
+
+107 time=2026-03-09 19:15:54 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C2 49 91" mver="LoRaWAN R1" 
+   fcnt=10 type="Tx" freqhz=925100 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="784411826" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YJFJwgCgCgD8qqUL" 
+
+108 time=2026-03-09 19:16:14 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C2 49 91" mver="LoRaWAN R1" fcnt=11 type="Rx" freqhz=916800 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="0" 
+   crc="Ok" counter="5094361619" rfchain="0" rssi="-99.43" snr="-3.50" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="28715" size="32" 
+   data="gJFJwgCACwACN7kABPNrj18lUqRtQHS5Aki90FQlJxo=" 
+
+109 time=2026-03-09 19:16:14 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C2 49 91" mver="LoRaWAN R1" 
+   fcnt=11 type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="804394323" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YJFJwgCgCwDTP4ng" 
+
+110 time=2026-03-09 19:16:34 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C2 49 91" mver="LoRaWAN R1" fcnt=12 type="Rx" freqhz=916800 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="0" 
+   crc="Ok" counter="5114393515" rfchain="0" rssi="-96.43" snr="0.75" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="54439" size="32" 
+   data="gJFJwgCADAACncVjhwm/u9g3NFZZ5WC59mTs/BE3nQE=" 
+
+111 time=2026-03-09 19:16:34 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C2 49 91" mver="LoRaWAN R1" 
+   fcnt=12 type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="824426219" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YJFJwgCgDAADFeCk" 
+
+112 time=2026-03-09 19:16:54 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C2 49 91" mver="LoRaWAN R1" fcnt=13 type="Rx" freqhz=916800 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="0" 
+   crc="Ok" counter="5134374063" rfchain="0" rssi="-98.43" snr="-1.00" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="60448" size="32" 
+   data="gJFJwgCADQACm1ZMOMBGy3Lo9Jd4Vo9Xnm6CwawR/hc=" 
+
+113 time=2026-03-09 19:16:54 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C2 49 91" mver="LoRaWAN R1" 
+   fcnt=13 type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="844406767" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YJFJwgCgDQDvRI1V" 
+
+114 time=2026-03-09 19:17:14 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C2 49 91" mver="LoRaWAN R1" fcnt=14 type="Rx" freqhz=916800 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="0" 
+   crc="Ok" counter="5154402913" rfchain="0" rssi="-100.44" snr="-3.25" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="18878" size="32" 
+   data="gJFJwgCADgACw6+lFwXD8th8GrKd1CuMvBjE6nEQfM8=" 
+
+115 time=2026-03-09 19:17:14 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C2 49 91" mver="LoRaWAN R1" 
+   fcnt=14 type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="864435617" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YJFJwgCgDgDhWPDx" 
+
+116 time=2026-03-09 19:17:34 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C2 49 91" mver="LoRaWAN R1" fcnt=15 type="Rx" freqhz=916800 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="0" 
+   crc="Ok" counter="5174379731" rfchain="0" rssi="-102.44" snr="-4.25" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="51800" size="32" 
+   data="gJFJwgCADwACvBBdSjTHqUIOMSi6vlBZC2Out4LqTx0=" 
+
+117 time=2026-03-09 19:17:34 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C2 49 91" mver="LoRaWAN R1" 
+   fcnt=15 type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="884412435" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YJFJwgCgDwARRvAI" 
+
+118 time=2026-03-09 19:19:14 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C2 49 91" mver="LoRaWAN R1" fcnt=20 type="Rx" freqhz=916800 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="0" 
+   crc="Ok" counter="5274359635" rfchain="0" rssi="-107.45" snr="-9.50" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="59092" size="32" 
+   data="gJFJwgCAFAACZHBDMkO9YJvaSODag4vN6wDBshMj+9I=" 
+
+119 time=2026-03-09 19:19:14 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C2 49 91" mver="LoRaWAN R1" 
+   fcnt=16 type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="984392339" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YJFJwgCgEADxoYPx" 
+
+120 time=2026-03-09 19:19:34 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C2 49 91" mver="LoRaWAN R1" fcnt=21 type="Rx" freqhz=916800 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="0" 
+   crc="Ok" counter="5294378460" rfchain="0" rssi="-77.45" snr="12.75" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="52957" size="32" 
+   data="gJFJwgCAFQACv689aVSnpEPyDsnUbX4GhT2LWNxLtQo=" 
+
+121 time=2026-03-09 19:19:34 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C2 49 91" mver="LoRaWAN R1" 
+   fcnt=17 type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="1004411164" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="17" data="YJFJwgClEQADVgD/AoT2kYQ=" 
+
+122 time=2026-03-09 19:19:54 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C2 49 91" mver="LoRaWAN R1" fcnt=22 type="Rx" freqhz=917400 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="3" 
+   crc="Ok" counter="5314407581" rfchain="0" rssi="-63.45" snr="13.75" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="61335" size="34" 
+   data="gJFJwgCCFgADBwJDWAib5zT1unOlD/2R5+DmPy2To6ULKg==" 
+
+123 time=2026-03-09 19:19:55 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C2 49 91" mver="LoRaWAN R1" 
+   fcnt=18 type="Tx" freqhz=925100 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="1024440285" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="17" data="YJFJwgClEgADWgD/ApcqM9c=" 
+
+124 time=2026-03-09 19:20:14 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C2 49 91" mver="LoRaWAN R1" fcnt=23 type="Rx" freqhz=916800 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="0" 
+   crc="Ok" counter="5334375698" rfchain="0" rssi="-54.45" snr="13.75" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="301" size="32" 
+   data="gJFJwgCAFwAC1t38eucgY01gMKVRpD93MaAkhr3ZvBE=" 
+
+125 time=2026-03-09 19:20:14 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C2 49 91" mver="LoRaWAN R1" 
+   fcnt=19 type="Tx" freqhz=923300 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="1044408402" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="17" data="YJFJwgClEwADWgD/AjnIMjI=" 
+
+126 time=2026-03-09 19:20:34 gwid="04F41CFFFF496AF3" msgtype="Confirmed Data Up" 
+   devaddr="00 C2 49 91" mver="LoRaWAN R1" fcnt=24 type="Rx" freqhz=918000 
+   mod="LoRa" band="125 kHz" datarate="SF 7" coderate="4/5" ifchain="6" 
+   crc="Ok" counter="5354408231" rfchain="1" rssi="-52.46" snr="10.25" 
+   snrmin="-2.00" snrmax="-2.00" rxcrc="12338" size="34" 
+   data="gJFJwgCCGAADBwKUnFAujjIQYoib2/WOGldtI8HBHIrZVA==" 
+
+127 time=2026-03-09 19:20:34 gwid="04F41CFFFF496AF3" 
+   msgtype="Unconfirmed Data Down" devaddr="00 C2 49 91" mver="LoRaWAN R1" 
+   fcnt=20 type="Tx" freqhz=926900 mod="LoRa" band="500 kHz" datarate="SF 7" 
+   coderate="4/5" txmode="Timestamped" counter="1064440935" rfchain="0" 
+   rfpow="27" invertpol="Yes" freq="0" preamblen="8" nocrc="Yes" noheader="No" 
+   size="12" data="YJFJwgCgFABU5XbU" 
