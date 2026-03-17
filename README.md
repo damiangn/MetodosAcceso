@@ -39,8 +39,9 @@ cfssl version
 
 ### 2. Descargar los dos archivos Open source `.yml` de la página y editarlos, configurarlos así (o directamente bajar estos dos):
 
-`docker compose.yml`: [ver documento](archivos/docker compose.yml)  
-`ttn-lw-stack-docker.yml`: [ver documento](archivos/config/stack/ttn-lw-stack-docker.yml)  
+`docker compose.yml`: [ver documento](docker/ttn/docker-compose.yml)  
+`ttn-lw-stack-docker.yml`: [ver documento](docker/ttn/config/stack/ttn-lw-stack-docker.yml)
+
 Reemplazar la dirección IP en el documento _ttn-lw-stack-docker.yml_ por la de la PC host donde se quiera instalar el servidor (actualmente: 192.168.137.28).
 En el terminal de linux generar dos keys aleatorias usando los comandos:
 ```bash
