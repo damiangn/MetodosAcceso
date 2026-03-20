@@ -1,5 +1,5 @@
 # Escenario 3  
-**(Análisis de Escalabilidad y Colisiones - Protocolo de Acceso ALOHA)**
+**(Análisis de Escalabilidad y Colisiones - Protocolo de Acceso ALOHA)**.
 
 Este escenario demuestra el comportamiento real del **método de acceso ALOHA puro** en LoRaWAN.  
 Se generaron colisiones intencionales aumentando progresivamente la carga de la red.
